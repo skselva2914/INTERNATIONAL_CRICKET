@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: lightblue;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    font-size: 3em;
+    font-weight: 700;
+    color: #F05136;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav-links a:hover {
+    color: #F05136;
+}
+
+#home h1{
+    background-color: black;
+    color: purple;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home h2 {
+    font-weight: 20;
+    letter-spacing: .5px;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+
+}
+
+#bio h1 {
+    letter-spacing: 0.5px;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+#bio img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 100px;
+
+}
+
+#bio article {
+    margin: 10px;
+}
+
+#bio article p {
+    padding: 20px 0;
+}
+
+p {
+    font-size: 1.5em;
+}
+#portfolio {
+    background: url(https://tse3.explicit.bing.net/th?id=OIP.XUDSVg8uIjmP1u9A-CII9AHaE8&pid=Api&P=0&h=180);
+    background-color: black;
+    color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#portfolio hr {
+
+    width: 200px;
+    margin: 20px auto;
+}
+
+#portfolio div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 50px;
+}
+
+#portfolio div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    color: black;
+    border: 1px solid gold;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+
+
+#portfolio>* {
+    margin-top: 20px;
+}
+
+#portfolio>p {
+    font-weight: 50;
+}
+
+#portfolio div article p,
+h3,
+img {
+    text-align: center;
+    padding: 20px 5px 0 5px;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#skills ul li {
+    margin: 10px 0;
+    ;
+}
+
+progress[value] {
+    height: 10px;
+    width: 300px;
+    -webkit-appearance: none;
+}
+progress[value]::-webkit-progress-bar {
+    background-color: pink;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px saddlebrown inset;
+}
+::-webkit-progress-value {
+    background-color: green;
+}
+#contact {
+    background-color:greenyellow;
+    color: blue;
+}
+.input {
+    line-height: 2em;
+    width: 350px;
+    border-radius: 3px;
+    border-color:red;
+}
